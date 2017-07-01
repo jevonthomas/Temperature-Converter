@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+</head>
+<body>
+
+<!-- In the HTML, have one input field where someone can enter in a temperature. -->
+
+<input type="number" name="temperature" id="temperature">
+
+<!-- Create a radio button group where Celsius or Fahrenheit can be selected as the scale that the number should be converted to. -->
+<br>
+<input type="radio" name="temperature-scale" id="fahrenheit">
+<span>Fahrenheit</span><br>
+<input type="radio" name="temperature-scale" id="celsius">
+<span>Celsius</span><br>
+
+
+<!-- Create a button that, when clicked, displays the converted temperature.-->
+
+<button id="converter">Convert</button>
+
+<!-- Create another button that, when clicked, clears any text in the input field. -->
+
+<button id="clear-button">Clear</button>
+
+<!-- Create a block level element that will hold the text of the converted temperature. -->
+
+<div id="container"></div>
+
+<script src="converter.js"></script>
+</body>
+</html>
